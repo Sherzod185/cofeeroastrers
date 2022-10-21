@@ -27,9 +27,7 @@
 
   &__text {
     max-width: 540px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    @include text($text-color);
     color: #333D4B;
     opacity: 0.8;
   }

@@ -31,11 +31,7 @@
 
   &__title {
     margin-bottom: 8px;
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
+    @include text($text-color);
     text-transform: uppercase;
     color: #FFFFFF;
     opacity: 0.5;

@@ -781,7 +781,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  color: #FEFCF7;
+  color: rgba(254, 252, 247, 0.8);
 }
 
 .commit__container {
@@ -812,6 +812,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
   color: #333D4B;
   opacity: 0.8;
 }
@@ -877,6 +878,7 @@ img {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
   color: #333D4B;
 }
 .contry__item {
@@ -1135,11 +1137,10 @@ img {
 }
 .order__title {
   margin-bottom: 8px;
-  font-family: "Barlow";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
   text-transform: uppercase;
   color: #FFFFFF;
   opacity: 0.5;
