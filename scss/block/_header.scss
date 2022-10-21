@@ -1,0 +1,52 @@
+.header-cite {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin: 0 auto
+}
+
+.header-cite__header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center
+}
+
+.header-cite__logo-block {
+  padding: 41.5px 0
+}
+
+.header-cite__logo {
+  max-width: 236px
+}
+
+.footer-cite__list,
+.header-cite__list {
+  display: flex
+}
+
+.header-cite__item:not(:last-child) {
+  margin-right: 33px
+}
+
+.header-cite__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: .923077px;
+  text-transform: uppercase;
+  padding: 5px;
+  color: #83888f;
+  transition: .4s;
+  border-radius: 5px
+}
+
+.header-cite__link:hover {
+  color: #333d4b
+}
+
+.header-cite__link:active {
+  background-color: #9c9c9c;
+  color: #00f
+}

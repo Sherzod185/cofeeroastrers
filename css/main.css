@@ -1,0 +1,1170 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+/* barlow-regular - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../fonts/barlow-v12-latin-regular.woff") format("woff2"), url("../fonts/barlow-v12-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* barlow-700 - latin */
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../fonts/barlow-v12-latin-700.woff2") format("woff2"), url("../fonts/barlow-v12-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* fraunces-900 - latin */
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/fraunces-v24-latin-900.eot");
+  /* IE9 Compat Modes */
+  src: local(""), url("../fonts/fraunces-v24-latin-900.eot?#iefix") format("embedded-opentype"), url("../fonts/fraunces-v24-latin-900.woff2") format("woff2"), url("../fonts/fraunces-v24-latin-900.woff") format("woff"), url("../fonts/fraunces-v24-latin-900.ttf") format("truetype"), url("../fonts/fraunces-v24-latin-900.svg#Fraunces") format("svg");
+  /* Legacy iOS */
+}
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1320px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero {
+  margin-top: 113.08px;
+  margin-bottom: 136px;
+}
+.hero__container {
+  max-width: 1320px;
+}
+.hero__text-block {
+  padding: 117px 0 85px 116px;
+  background-image: url("../img/hero-bgi.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #a2a2a2;
+  border-radius: 10px;
+}
+.hero__title {
+  max-width: 493px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+.hero__text {
+  max-width: 445px;
+  margin-bottom: 56px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+}
+.hero__link {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.hero__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0E8784;
+  border-radius: 6px;
+  padding: 15px 31px;
+  transition: 0.4s linear;
+}
+.hero__link:hover {
+  background-color: #0E8784;
+  color: #dbdada;
+}
+.hero__link:active {
+  background-color: #9aa7f8;
+}
+
+.our__list {
+  justify-content: space-between;
+  display: flex;
+}
+.our__container {
+  max-width: 1111px;
+  margin: 0 auto;
+  background-image: url("../img/our-bg.png");
+  background-repeat: no-repeat;
+}
+.our__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.our__list {
+  padding-top: 126px;
+  margin-bottom: 200px;
+}
+.our__img-block {
+  max-width: 255px;
+  margin-bottom: 71px;
+}
+.our_item {
+  text-align: center;
+  max-width: 255px;
+}
+.our__title {
+  max-width: 255px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333d4b;
+  margin-bottom: 24px;
+}
+.our__text {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+  color: #333d4b;
+}
+
+.choose__block {
+  background-color: #2c343e;
+  border-radius: 10px;
+  position: relative;
+}
+.choose__text-block {
+  max-width: 540px;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 86px;
+  text-align: center;
+}
+.choose__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #fefcf7;
+  margin-bottom: 32px;
+}
+.choose__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+}
+.choose__list {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.choose__item {
+  max-width: 350px;
+  text-align: center;
+  background-color: #0E8784;
+  border-radius: 8px;
+  padding: 0 47px 47px;
+}
+.choose__sub-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fefcf7;
+  padding-top: 56px;
+  margin-bottom: 24px;
+}
+.choose__sub-text {
+  max-width: 255px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+}
+.choose__item:first-child::before {
+  width: 72px;
+  background-image: url("../img/choose1.svg");
+  display: inline-block;
+  margin-top: 72px;
+}
+.choose__item:nth-child(2)::before {
+  width: 72px;
+  background-image: url("../img/choose2.svg");
+  display: inline-block;
+  margin-top: 72px;
+}
+.choose__item:nth-child(3)::before {
+  width: 72px;
+  background-image: url("../img/choose3.svg");
+  display: inline-block;
+  margin-top: 72px;
+}
+.choose__button {
+  width: 100%;
+  background-color: #2C343E;
+  border-radius: 10px;
+  height: 250px;
+  position: absolute;
+  z-index: -1;
+  top: 95%;
+}
+.choose__item:first-child::before, .choose__item:nth-child(2)::before, .choose__item:nth-child(3)::before {
+  content: "";
+  height: 72px;
+  background-repeat: no-repeat;
+}
+.choose__list {
+  justify-content: space-between;
+  display: flex;
+}
+
+.work__sub-title, .work__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+}
+.work__container {
+  max-width: 1160px;
+  margin-top: 200px;
+  padding-right: 95px;
+}
+.work__line, .work__list {
+  justify-content: space-between;
+}
+.work__link {
+  font-weight: 900;
+  font-family: "Fraunces";
+}
+.work__link {
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 6px;
+  padding: 15px 31px;
+  transition: 0.4s linear;
+}
+.work__link:hover {
+  background-color: #66d2cf;
+  color: #dbdada;
+}
+.work__link:active {
+  background-color: #9aa7f8;
+}
+.work__title {
+  max-width: 255px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+  margin-bottom: 80px;
+}
+.work__line {
+  max-width: 760px;
+  height: 2px;
+  background-color: #fdd6ba;
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-bottom: 82px;
+}
+.work__aylana {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  border: 2px solid #0E8784;
+  display: inline-block;
+}
+.work__list {
+  display: flex;
+}
+.work__item {
+  max-width: 285px;
+}
+.work__sub-title {
+  margin-top: 38px;
+  margin-bottom: 42px;
+  max-width: 255px;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333d4b;
+}
+.work__sub-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+  color: #333d4b;
+}
+.work__item:first-child::before {
+  width: 90px;
+  background-image: url("../img/work1.svg");
+  display: inline-block;
+}
+.work__item:nth-child(2)::before {
+  width: 101px;
+  background-image: url("../img/work2.svg");
+  display: inline-block;
+}
+.work__item:nth-child(3)::before {
+  width: 98px;
+  background-image: url("../img/work3.svg");
+  display: inline-block;
+}
+.work__block {
+  margin-bottom: 64px;
+}
+.work__item:first-child::before, .work__item:nth-child(2)::before, .work__item:nth-child(3)::before {
+  content: "";
+  height: 72px;
+  background-repeat: no-repeat;
+}
+
+.header-cite {
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  margin: 0 auto;
+}
+
+.header-cite__header-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-cite__logo-block {
+  padding: 41.5px 0;
+}
+
+.header-cite__logo {
+  max-width: 236px;
+}
+
+.footer-cite__list,
+.header-cite__list {
+  display: flex;
+}
+
+.header-cite__item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.header-cite__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  padding: 5px;
+  color: #83888f;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.header-cite__link:hover {
+  color: #333d4b;
+}
+
+.header-cite__link:active {
+  background-color: #9c9c9c;
+  color: #00f;
+}
+
+.about-hero__text-block {
+  max-width: 445px;
+}
+.about-hero__block {
+  margin-top: 113.88px;
+  padding: 137px 0 137px 86px;
+  background-image: url("../../img/herobg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-bottom: 168px;
+}
+.about-hero__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+.about-hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.commit__container {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 256px;
+}
+.commit__img {
+  max-width: 445px;
+}
+.commit__text-block {
+  max-width: 540px;
+}
+.commit__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+.commit__text {
+  max-width: 540px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+}
+
+.quality__text-block {
+  margin-top: 88px;
+  max-width: 540px;
+}
+.quality__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+.quality__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+.quality__img {
+  width: 445px;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  top: -84px;
+}
+.quality__container {
+  padding: 0 88px 0 85px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2C343E;
+  border-radius: 10px;
+  margin-bottom: 168px;
+}
+
+.contry__container {
+  max-width: 1085px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.contry__title {
+  max-width: 255px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+.contry__litle-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+.contry__litle-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+.contry__item {
+  max-width: 285px;
+}
+.contry__item:nth-child(1):before {
+  width: 41px;
+  height: 49px;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../../img/contry1.svg");
+  display: inline-block;
+  margin-bottom: 45px;
+}
+.contry__item:nth-child(2):before {
+  width: 51px;
+  height: 49px;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../../img/contry2.svg");
+  display: inline-block;
+  margin-bottom: 45px;
+}
+.contry__item:nth-child(3):before {
+  width: 48px;
+  height: 43px;
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../../img/contry3.svg");
+  display: inline-block;
+  margin-bottom: 45px;
+}
+.contry__list {
+  display: flex;
+}
+.contry__item:not(:last-child) {
+  margin-right: 95px;
+}
+
+.footer-cite__container {
+  background-color: #2c343e;
+  margin-bottom: 88px;
+}
+
+.footr-cite__big-block {
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.footer-cite__list {
+  margin-left: 102px;
+  display: flex;
+}
+
+.footer-cite__item:not(:last-child) {
+  margin-right: 33px;
+}
+
+.footer-cite__link {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  padding: 5px;
+  color: #83888f;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+
+.footer-cite__container {
+  margin-top: 169px;
+}
+
+.footer-cite__footer-block {
+  display: flex;
+  align-items: center;
+}
+
+.footer-cite__logo-block {
+  padding: 47px 0;
+}
+
+.footer-cite__logo {
+  max-width: 236px;
+}
+
+.footer-cite__link:hover {
+  color: #f6f8fb;
+}
+
+.footer-cite__ijt-list {
+  margin-left: auto;
+  display: flex;
+}
+
+.footer-cite__ijt-link {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-cite__ijt-item:not(:last-child) {
+  margin-right: 19px;
+}
+
+.create-hero__text-block {
+  max-width: 486px;
+}
+.create-hero__block {
+  margin-top: 113.88px;
+  padding: 134px 0 137px 86px;
+  background-image: url("../../img/create-herobg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  margin-bottom: 177px;
+}
+.create-hero__title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+.create-hero__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.pick__line, .pick__list {
+  justify-content: space-between;
+}
+.pick__container {
+  border-radius: 10px;
+  padding-top: 91px;
+  padding-bottom: 107px;
+  background-color: #2C343E;
+}
+.pick__block {
+  max-width: 1160px;
+  margin-top: 200px;
+  padding-right: 95px;
+  margin: 0 auto;
+}
+.pick__line {
+  margin-left: 15px;
+  max-width: 760px;
+  height: 2px;
+  background-color: #fdd6ba;
+  display: inline;
+  display: flex;
+  align-items: center;
+  margin-bottom: 82px;
+}
+.pick__aylana {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fefcf7;
+  border: 2px solid #0E8784;
+  display: inline-block;
+  background-color: transparent;
+}
+.pick__aylana:nth-child(1) {
+  margin-left: -15px;
+}
+.pick__aylana:nth-child(3) {
+  margin-right: -15px;
+}
+.pick__list {
+  display: flex;
+}
+.pick__item {
+  max-width: 285px;
+}
+.pick__sub-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  margin-top: 38px;
+  margin-bottom: 42px;
+  max-width: 255px;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+}
+.pick__sub-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+  color: #FEFCF7;
+}
+.pick__item:first-child::before {
+  content: "01";
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  display: inline-block;
+}
+.pick__item:nth-child(2)::before {
+  content: "02";
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  display: inline-block;
+}
+.pick__item:nth-child(3)::before {
+  content: "03";
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  display: inline-block;
+}
+.pick__block {
+  margin-bottom: 159pxpx;
+}
+
+.order__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.order__block {
+  border-radius: 10px;
+  margin-top: 88px;
+  margin-left: auto;
+  max-width: 730px;
+  padding: 27px 64px;
+  background-color: #2C343E;
+}
+.order__blue {
+  color: #0E8784;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+.order__text-block {
+  color: #FFFFFF;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 40px;
+}
+.order__title {
+  margin-bottom: 8px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.5;
+}
+.order__btn-block {
+  max-width: 217px;
+  margin-left: auto;
+}
+.order__btn {
+  padding: 16px 35px;
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  background-color: #0E8784;
+  border-radius: 10px;
+  margin-top: 40px;
+  transition: 0.4s linear;
+}
+.order__btn:hover {
+  background-color: #66d2cf;
+  color: #dbdada;
+}
+.order__btn:active {
+  background-color: #9aa7f8;
+}/*# sourceMappingURL=main.css.map */

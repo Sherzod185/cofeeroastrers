@@ -1,0 +1,108 @@
+.pick {
+
+  &__line,
+  &__list {
+    justify-content: space-between
+  }
+
+  &__container {
+    border-radius: 10px;
+    padding-top: 91px;
+    padding-bottom: 107px;
+    background-color: $secondary-color;
+  }
+
+  &__block {
+    max-width: 1160px;
+    margin-top: 200px;
+    padding-right: 95px;
+    margin: 0 auto;
+
+  }
+
+
+  &__line {
+    margin-left: 15px;
+    max-width: 760px;
+    height: 2px;
+    background-color: #fdd6ba;
+    display: inline;
+    display: flex;
+    align-items: center;
+    margin-bottom: 82px
+  }
+
+  &__aylana {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $little-color;
+    border: 2px solid $main-color;
+    display: inline-block;
+    background-color: transparent;
+  }
+
+  &__aylana:nth-child(1) {
+    margin-left: -15px;
+  }
+
+  &__aylana:nth-child(3) {
+    margin-right: -15px;
+  }
+
+
+  &__list {
+    display: flex
+  }
+
+  &__item {
+    max-width: 285px
+  }
+
+  &__sub-title {
+    @include title;
+    margin-top: 38px;
+    margin-bottom: 42px;
+    max-width: 255px;
+    font-size: 32px;
+    line-height: 36px;
+    color: #FEFCF7;
+  }
+
+  &__sub-text {
+    @include text($text-color);
+    color: #FEFCF7;
+  }
+
+  &__item:first-child::before {
+    content: "01";
+    @include title;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    display: inline-block
+  }
+
+  &__item:nth-child(2)::before {
+    content: "02";
+    @include title;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    display: inline-block
+  }
+
+  &__item:nth-child(3)::before {
+    content: "03";
+    @include title;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    display: inline-block
+  }
+
+  &__block {
+    margin-bottom: 159pxpx
+  }
+
+}

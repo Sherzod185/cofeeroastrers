@@ -1,0 +1,102 @@
+.choose {
+
+  &__block {
+    background-color: #2c343e;
+    border-radius: 10px;
+    position: relative
+  }
+
+  &__text-block {
+    max-width: 540px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 86px;
+    text-align: center
+  }
+
+  &__title {
+    @include title;
+    font-size: 40px;
+    line-height: 48px;
+    color:$little-color;
+    margin-bottom: 32px
+  }
+
+  &__text {
+    @include text($text-color);
+  }
+
+  &__list {
+    max-width: 1110px;
+    margin: 0 auto
+  }
+
+
+  &__item {
+    max-width: 350px;
+    text-align: center;
+    background-color: $main-color;
+    border-radius: 8px;
+    padding: 0 47px 47px
+  }
+
+  &__sub-title {
+    @include title;
+    font-size: 24px;
+    line-height: 32px;
+    color:$little-color;
+    padding-top: 56px;
+    margin-bottom: 24px
+  }
+
+  &__sub-text {
+    max-width: 255px;
+    @include text($text-color);
+  }
+
+
+  &__item:first-child::before {
+    width: 72px;
+    background-image: url('../img/choose1.svg');
+    display: inline-block;
+    margin-top: 72px
+  }
+
+  &__item:nth-child(2)::before {
+    width: 72px;
+    background-image: url('../img/choose2.svg');
+    display: inline-block;
+    margin-top: 72px
+  }
+
+  &__item:nth-child(3)::before {
+    width: 72px;
+    background-image: url('../img/choose3.svg');
+    display: inline-block;
+    margin-top: 72px
+  }
+
+  &__button {
+    width: 100%;
+    background-color: $secondary-color;
+    border-radius: 10px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+    top: 95%
+  }
+
+  &__item:first-child::before,
+  &__item:nth-child(2)::before,
+  &__item:nth-child(3)::before {
+    content: "";
+    height: 72px;
+    background-repeat: no-repeat;
+  }
+
+  &__list {
+    justify-content: space-between;
+    display: flex
+  }
+
+}

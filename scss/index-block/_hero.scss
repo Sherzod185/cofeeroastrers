@@ -1,0 +1,59 @@
+.hero {
+  & {
+    margin-top: 113.08px;
+    margin-bottom: 136px
+  }
+
+  &__container {
+    max-width: 1320px
+  }
+
+  &__text-block {
+    padding: 117px 0 85px 116px;
+    background-image: url('../img/hero-bgi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #a2a2a2;
+    border-radius: 10px
+  }
+
+  &__title {
+    max-width: 493px;
+    @include title;
+    font-size: 72px;
+    line-height: 72px;
+    color: $little-color;
+    margin-bottom: 32px
+  }
+
+  &__text {
+    max-width: 445px;
+    margin-bottom: 56px;
+    @include text($text-color);
+  }
+
+  &__link {
+    @include title;
+  }
+
+  &__link {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $little-color;
+    background-color: $main-color;
+    border-radius: 6px;
+    padding: 15px 31px;
+    transition: .4s linear
+  }
+
+  &__link:hover {
+    background-color: $main-color;
+    color: #dbdada
+  }
+
+  &__link:active {
+    background-color: #9aa7f8
+  }
+
+}
