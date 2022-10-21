@@ -402,8 +402,19 @@ a {
   text-decoration: none;
 }
 
+::-moz-selection {
+  background-color: transparent;
+  color: unset;
+}
+
+::selection {
+  background-color: transparent;
+  color: unset;
+}
+
 img {
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -427,8 +438,8 @@ img {
   padding: 117px 0 85px 116px;
   background-image: url("../img/hero-bgi.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #a2a2a2;
+  background-position: center;
+  background-size: 100% 100%;
   border-radius: 10px;
 }
 .hero__title {
@@ -1108,6 +1119,131 @@ img {
   margin-bottom: 159pxpx;
 }
 
+.cofe__container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 159px;
+  display: flex;
+}
+.cofe__link-block {
+  max-width: 211px;
+  opacity: 0.4;
+  border-bottom: 1px solid #83888F;
+  padding-bottom: 23px;
+  transition: all 0.5s ease;
+}
+.cofe__left-block {
+  max-width: 255px;
+}
+.cofe__link-block2 {
+  max-width: 230px;
+  opacity: 0.4;
+  border-bottom: 1px solid #83888F;
+  padding: 23px 0;
+  transition: all 0.5s ease;
+}
+.cofe__link1 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  padding-right: 27px;
+}
+.cofe__right-block {
+  width: 730px;
+  margin-left: auto;
+}
+.cofe__label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 56px;
+}
+.cofe__link2 {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  transition: all 0.4s ease;
+}
+.cofe__link-block:hover {
+  opacity: 1;
+}
+.cofe__link-block2:hover {
+  opacity: 1;
+}
+.cofe__label-text {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #83888F;
+}
+.cofe__label i {
+  margin-left: auto;
+  font-size: 40px;
+}
+.cofe__list {
+  margin-top: 56px;
+  margin-bottom: 88px;
+  display: flex;
+  justify-content: space-between;
+}
+.cofe__item {
+  max-width: 228px;
+  padding: 32px 28px 84px 28px;
+  transition: all 0.7s ease;
+  background: #F4F1EB;
+  border-radius: 8px;
+}
+.cofe__item:hover {
+  background-color: #0E8784;
+}
+.cofe__item:active {
+  background-color: #FDD6BA;
+}
+.cofe__item:hover h3 {
+  color: #fefcf7;
+}
+.cofe__item:hover p {
+  color: #fefcf7;
+}
+.cofe__item:active h3 {
+  color: #333D4B;
+}
+.cofe__item:active p {
+  color: #333D4B;
+}
+.cofe__sub-title {
+  font-family: "Fraunces";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin-bottom: 24px;
+  transition: all 0.7s ease;
+}
+.cofe__sub-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(254, 252, 247, 0.8);
+  color: #333D4B;
+  transition: all 0.7s ease;
+}
+.cofe__list {
+  display: none;
+}
+.cofe__input:checked ~ .cofe__list {
+  display: flex;
+}
+.cofe__input:checked ~ .cofe__label i {
+  transform: rotatex(180deg);
+}
+
 .order__container {
   max-width: 1150px;
   margin: 0 auto;
@@ -1115,7 +1251,6 @@ img {
 }
 .order__block {
   border-radius: 10px;
-  margin-top: 88px;
   margin-left: auto;
   max-width: 730px;
   padding: 27px 64px;

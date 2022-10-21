@@ -36,10 +36,17 @@ a {
   text-decoration: none;
 }
 
+::selection {
+  background-color: transparent;
+  color: unset;
+}
+
 img {
   width: 100%;
+  max-width: 100%;
   height: auto;
 }
+
 
 .container {
   max-width: 1320px;
